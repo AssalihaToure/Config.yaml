@@ -1,0 +1,7 @@
+## Ansible Host Files
+[Routeur1]
+R1 ansible_host=192.168.1.1
+
+[Routeur1:vars]
+ansible_user=admin
+ansible_ssh_pass=admin
